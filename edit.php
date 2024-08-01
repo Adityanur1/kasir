@@ -3,6 +3,7 @@ session_start(); // Memulai sesi PHP untuk menggunakan variabel session
 
 include "koneksi.php"; // Menyertakan file koneksi.php yang berisi kode untuk menghubungkan ke database
 // Mengecek apakah form telah disubmit
+// Aditya Nur Sudah dicek pMoko
 if (isset($_POST['submit'])) {
     $id = $_GET['id']; // Mengambil ID barang dari URL
     $nama = $_POST['nama_barang']; // Mengambil nama barang dari input form
